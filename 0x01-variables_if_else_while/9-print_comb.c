@@ -14,8 +14,8 @@ int main(void)
 	}
 	if (x < 57)
 	{
-		putchar(',');
-		putchar(' ');
+		putchar(44);
+		putchar(32);
 	}
 	putchar('\n');
 	return (0);
