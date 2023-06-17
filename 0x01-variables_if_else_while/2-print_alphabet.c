@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints the alphabets in lowercase.
  *
- * Description: 'print alphabet in lowercase'
- *
- * Result: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char alpt[27] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	int c;
 
-	for (i = 0; i < 26; i++)
+	for (c = 0; c < 26; c++)
 	{
-		putchar(alpt[i]);
+		putchar(alpt[c]);
 	}
 	putchar('\n');
 	return (0);
