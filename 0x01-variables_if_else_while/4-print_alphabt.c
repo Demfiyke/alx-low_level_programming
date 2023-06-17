@@ -1,17 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Priny all alphabets except q and e.
+ * main - Print all alphabets except q and e.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int a;
 
-	for (i = 97; i < 123; i++)
+	for (a = 97; a < 123; a++)
 	{
-		putchar(i);
+		if (a != 101 && a != 113)
+		{
+		putchar(a);
+		}
 	}
 	putchar('\n');
 	return (0);
