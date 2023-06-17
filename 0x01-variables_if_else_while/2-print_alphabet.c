@@ -1,14 +1,17 @@
 #include <stdio.h>
 
 /**
- *  main - print alphabet in lowercase
- *  Result: Always 0 (success)
+ * main - Entry point
+ *
+ * Description: 'print alphabet in lowercase'
+ *
+ * Result: Always 0 (success)
  */
 int main(void)
 {
-	int i;
 	char alpt[27] = "abcdefghijklmnopqrstuvwxyz";
-	
+	int i;
+
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alpt[i]);
@@ -16,4 +19,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-	
